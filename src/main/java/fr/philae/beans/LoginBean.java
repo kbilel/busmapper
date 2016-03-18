@@ -38,11 +38,11 @@ public String doLogin(){
 
 	user1=new User();
 	
-	user1.setAdress("mestir");
-	user1.setUserName("k");
-	user1.setPassword("k");
+	user1.setAdress("mesdazdaztir");
+	user1.setUserName("ka");
+	user1.setPassword("kdaz");
 	
-//userServicesLocal.addUser(user1);
+userServicesLocal.addUser(user1);
 	
 	if( userServicesLocal.authentificate(login, password)!=null ){
 		user2=userServicesLocal.authentificate(login, password);
